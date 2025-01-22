@@ -98,9 +98,9 @@ if __name__ == "__main__":
     circuit.add_bus("1")
     circuit.add_bus("2")
     
-    circuit.add_vsource("V1", "1", 18.0)
-    circuit.add_resistor("R1", "1", "2", 1000.0)
-    circuit.add_load("L1", "2", 70.0, 0.0)
+    circuit.add_vsource("V1", "1", 18)
+    circuit.add_resistor("R1", "1", "2", 1000)
+    circuit.add_load("L1", "2", 70, 0)
     
     # Display circuit state
     circuit.display_circuit_state()
