@@ -9,7 +9,7 @@ class Load:
         self.g = self.calc_g()
     
     def calc_g(self):
-        nominal_v = 1.0
+        nominal_v = 1.0 # nominal voltage 
         return self.p / (nominal_v ** 2)
     
      
